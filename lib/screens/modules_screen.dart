@@ -35,7 +35,7 @@ class ModulesScreen extends StatelessWidget {
                   ),
                   itemCount: availableModules.length,
                   itemBuilder: (context, index) {
-                    return _buildModuleCard(availableModules[index]);
+                    return _buildModuleCard(context, availableModules[index]);
                   },
                 ),
               ),
@@ -75,7 +75,7 @@ class ModulesScreen extends StatelessWidget {
     );
   }
   
-  Widget _buildModuleCard(Module module) {
+  Widget _buildModuleCard(BuildContext context, Module module) {
     return Container(
       decoration: BoxDecoration(
         gradient: const LinearGradient(
