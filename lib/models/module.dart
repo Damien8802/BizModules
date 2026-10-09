@@ -20,11 +20,9 @@ final List<Module> allModules = [
   const Module(id: 'cloud', name: 'Cloud Storage', icon: '☁️', description: 'Облачное хранилище'),
   const Module(id: 'stock', name: 'Складской учёт', icon: '📦', description: 'Управление складом'),
   const Module(id: 'logistics', name: 'Логистика', icon: '🚚', description: 'Доставка и перевозки'),
-  const Module(id: 'hr', name: 'HR модуль', icon: '👥', description: 'Кадры и персонал'),
   const Module(id: 'ai', name: 'AI Агенты', icon: '🤖', description: 'Искусственный интеллект'),
-  const Module(id: 'security', name: 'Безопасность', icon: '🛡️', description: 'Защита данных'),
-  const Module(id: 'migration', name: 'Миграция данных', icon: '🔄', description: 'Перенос данных'),
+  const Module(id: 'ai_media', name: 'AI Media Studio', icon: '🎬', description: 'Генерация фото, видео и фильмов'),
   const Module(id: 'archive', name: 'Архив', icon: '📦', description: 'Архивация'),
-  const Module(id: 'identity', name: 'Identity Hub', icon: '🔐', description: 'Управление доступом'),
   const Module(id: 'marketplace', name: 'Маркетплейс', icon: '🛒', description: 'Товары и услуги'),
+  const Module(id: 'security_24_7', name: 'ОХРАНА 24/7', icon: '🚔', description: 'Модуль для ЧОП — контроль охраны'),
 ];
